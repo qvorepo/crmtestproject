@@ -53,8 +53,6 @@ public class ContactsPageTest extends TestBase {
 	  }
 	  
 
-	 
-	  
 	  @DataProvider ()
 		public Iterator<Object[]> getTestData() {
 			ArrayList<Object[]> testData=TestUtil.getNewContactTestDataFromExcel();
@@ -64,21 +62,22 @@ public class ContactsPageTest extends TestBase {
 		@Test(dataProvider="getTestData", priority=2)
 		public void verifyCreateNewContacts(String title, String firstname, String lastname, String company) throws Exception{
 			homePage.clickOnNewContactLink();
+			contactsPage.createNewContact(title, firstname, lastname, company);
 		}
 		
 		
-//		 @Test(priority=3)
-//		  public void verifyDeleteContactByNameTest1() throws Exception{
-//			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_1"));
-//		  }
-//		 @Test(priority=4)
-//		  public void verifyDeleteContactByNameTest2() throws Exception{
-//			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_2"));
-//		  }
-//		 @Test(priority=5)
-//		  public void verifyDeleteContactByNameTest3() throws Exception{
-//			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_3"));
-//		  }		
+		 @Test(priority=3)
+		  public void verifyDeleteContactByNameTest1() throws Exception{
+			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_1"));
+		  }
+		 @Test(priority=4)
+		  public void verifyDeleteContactByNameTest2() throws Exception{
+			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_2"));
+		  }
+		 @Test(priority=5)
+		  public void verifyDeleteContactByNameTest3() throws Exception{
+			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_3"));
+		  }		
 		
 
 			  

@@ -15,8 +15,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import com.crm.excel.util.Xls_Reader;
 import com.crm.qa.base.TestBase;
-import com.crm.excel.util.*;
 
 public class TestUtil extends TestBase {
 
@@ -26,8 +26,8 @@ public class TestUtil extends TestBase {
 	//public static String TESTDATA_SHEET_PATH = "/Users/naveenkhunteta/Documents/workspace"
 	//		+ "/FreeCRMTest/src/main/java/com/crm/qa/testdata/FreeCrmTestData.xlsx";
 	
-	public static String TESTDATA_SHEET_PATH = "\\Users\\Mamga\\eclipse-ws\\freecrmtest\\freecrmtest\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCrmTestData.xlsx";
-			
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Mamga\\git\\repository\\crmtest\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCrmTestData.xlsx";
+	//C:\Users\Mamga\git\repository\crmtest\src\main\java\com\crm\qa\testdata\FreeCrmTestData.xlsx
 
 	static Workbook book;
 	static Sheet sheet;
