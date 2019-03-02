@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Free CRM App Test Cases</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Free CRM App Test Cases</h1>
+<p>
+  Test duration: 304.489s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.ContactsPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyDeleteContactByNameTest1
+      </td>
+  <td class="duration">
+    20.364s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;David Cris&quot;}<br/>
+&nbsp; (Session info: chrome=72.0.3626.119)<br/>
+&nbsp; (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;<br/>
+System info: host: &apos;MAMGA-PC&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54557}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}<br/>
+Session ID: 5be0acda702f21e80193d00476b26b0e<br/>
+*** Element info: {Using=link text, value=David Cris}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)<br />
+              org.openqa.selenium.By$ByLinkText.findElement(By.java:220)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)<br />
+              com.sun.proxy.$Proxy35.findElement(Unknown Source)<br />
+              org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)<br />
+              com.crm.qa.pages.ContactsPage.deleteContactByName(ContactsPage.java:68)<br />
+              com.crm.qa.testcases.ContactsPageTest.verifyDeleteContactByNameTest1(ContactsPageTest.java:71)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.retryFailed(Invoker.java:1014)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)<br />
+              org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)<br />
+              org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)<br />
+              org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)<br />
+              org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1010)<br />
+              org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:862)<br />
+              org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:755)<br />
+              org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)<br />
+              org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)<br />
+              org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)<br />
+              org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)<br />
+              org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)<br />
+              org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)<br />
+              org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)<br />
+              org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)<br />
+              org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)<br />
+              org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)<br />
+              org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)<br />
+              org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)<br />
+              org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)<br />
+              jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:176)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              hudson.maven.Maven3Builder.call(Maven3Builder.java:139)<br />
+              hudson.maven.Maven3Builder.call(Maven3Builder.java:70)<br />
+              hudson.remoting.UserRequest.perform(UserRequest.java:212)<br />
+              hudson.remoting.UserRequest.perform(UserRequest.java:54)<br />
+              hudson.remoting.Request$2.run(Request.java:369)<br />
+              hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.MathDemo</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  division
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [2] but found [3]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:93)<br />
+              org.testng.Assert.failNotEquals(Assert.java:512)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:134)<br />
+              org.testng.Assert.assertEquals(Assert.java:115)<br />
+              org.testng.Assert.assertEquals(Assert.java:388)<br />
+              org.testng.Assert.assertEquals(Assert.java:398)<br />
+              com.crm.qa.testcases.MathDemo.division(MathDemo.java:20)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.retryFailed(Invoker.java:1014)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)<br />
+              org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)<br />
+              org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)<br />
+              org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)<br />
+              org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1010)<br />
+              org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:862)<br />
+              org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:755)<br />
+              org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)<br />
+              org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)<br />
+              org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)<br />
+              org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)<br />
+              org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)<br />
+              org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)<br />
+              org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)<br />
+              org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)<br />
+              org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)<br />
+              org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)<br />
+              org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)<br />
+              org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)<br />
+              org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)<br />
+              jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:176)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              hudson.maven.Maven3Builder.call(Maven3Builder.java:139)<br />
+              hudson.maven.Maven3Builder.call(Maven3Builder.java:70)<br />
+              hudson.remoting.UserRequest.perform(UserRequest.java:212)<br />
+              hudson.remoting.UserRequest.perform(UserRequest.java:54)<br />
+              hudson.remoting.Request$2.run(Request.java:369)<br />
+              hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.ContactsPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyDeleteContactByNameTest1
+      </td>
+  <td class="duration">
+    20.417s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDeleteContactByNameTest1
+      </td>
+  <td class="duration">
+    20.353s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDeleteContactByNameTest1
+      </td>
+  <td class="duration">
+    20.345s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.MathDemo</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  division
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  division
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  division
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.ContactsPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyContactsPageHeader
+      </td>
+  <td class="duration">
+    0.028s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCreateNewContacts
+      </td>
+  <td class="duration">
+    1.089s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Dr.", "David", "Cris", "Amazon"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCreateNewContacts
+      </td>
+  <td class="duration">
+    1.095s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Mrs.", "Mukta", "Sharma", "Ebay"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCreateNewContacts
+      </td>
+  <td class="duration">
+    0.943s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Mr.", "Tom", "Peter", "Google"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.DealsPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyCreateNewDeals
+      </td>
+  <td class="duration">
+    2.268s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"$7 Senior Wednesday", "D-Hairs", "Duc Vu", "7.0"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCreateNewDeals
+      </td>
+  <td class="duration">
+    2.020s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"$10 Hair Cut", "D-Hairs", "Duc Vu", "10.0"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCreateNewDeals
+      </td>
+  <td class="duration">
+    2.104s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"$20 for entire family Tuesday", "D-Hairs", "Duc Vu", "20.0"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCreateNewDeals
+      </td>
+  <td class="duration">
+    2.091s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"$8 Kid Hair Cut", "D-Hairs", "Thao Thui", "8.0"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDealsPageHeader
+      </td>
+  <td class="duration">
+    0.020s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.HomePageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyContactsLinkTest
+      </td>
+  <td class="duration">
+    0.580s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDealsLinkTest
+      </td>
+  <td class="duration">
+    0.640s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyHomePageTitleTest
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUsernameLabelTest
+      </td>
+  <td class="duration">
+    0.059s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.LoginPageDataDrivenTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginToFreeCRM
+      </td>
+  <td class="duration">
+    4.446s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"qvofreecrm", "easypw123"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginToFreeCRM
+      </td>
+  <td class="duration">
+    4.245s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"qvofreemarketing", "freemarketing"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.LoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginTest
+      </td>
+  <td class="duration">
+    4.404s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyLoginPageTitleTest
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.crm.qa.testcases.MathDemo</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  sum
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

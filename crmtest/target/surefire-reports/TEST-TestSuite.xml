@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="306.575" tests="26" errors="0" skipped="6" failures="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="crmtest_project"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Mamga\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4a952a26840e7f06"/>
+    <property name="POM_ARTIFACTID" value="ecom"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="freecrm"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="webdriver.chrome.bin" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="ANT_HOME" value="C:\Program Files\apache-ant-1.10.5"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="MAMGA-PC$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="crmtest_project"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/crmtest_project/18/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="MAMGA-PC$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.0\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/crmtest_project/18/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Mamga\Dropbox\Tools\Selenium\Driver\chromedriver.exe"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/crmtest_project/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_181"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="MAMGA-PC"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="POM_GROUPID" value="com.org.freecrm"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-crmtest_project-18"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4a952a26840e7f06"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\apache-maven-3.6.0/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\apache-ant-1.10.5\bin;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.0"/>
+    <property name="java.class.path" value="C:\Users\Mamga\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Program Files\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\apache-maven-3.6.0/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.0 C:\Users\Mamga\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\Mamga\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\Mamga\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 53702"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\apache-ant-1.10.5\bin;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_181/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files\apache-maven-3.6.0"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mamga\eclipse-ws\freecrmtest\freecrmtest\target\test-classes;C:\Users\Mamga\eclipse-ws\freecrmtest\freecrmtest\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.19.1\surefire-junit47-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\common-junit48\2.19.1\common-junit48-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\common-junit4\2.19.1\common-junit4-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\common-junit3\2.19.1\common-junit3-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\common-java5\2.19.1\common-java5-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.19.1\surefire-grouper-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-api\2.19.1\surefire-api-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.19.1\surefire-testng-utils-2.19.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.19.1\surefire-grouper-2.19.1.jar;"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Mamga\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.6.0/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/crmtest_project/18/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Mamga\eclipse-ws\freecrmtest\freecrmtest\target"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/crmtest_project/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.6.0"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="18"/>
+    <property name="BASE" value="C:\Users\Mamga\.jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="basedir" value="C:\Users\Mamga\eclipse-ws\freecrmtest\freecrmtest"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Mamga\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Mamga\.jenkins\workspace\crmtest_project"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Mamga\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Users\Mamga\.jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase name="verifyCreateNewDeals" classname="com.crm.qa.testcases.DealsPageTest" time="2.021"/>
+  <testcase name="verifyCreateNewDeals" classname="com.crm.qa.testcases.DealsPageTest" time="2.091"/>
+  <testcase name="verifyCreateNewDeals" classname="com.crm.qa.testcases.DealsPageTest" time="2.268"/>
+  <testcase name="verifyCreateNewDeals" classname="com.crm.qa.testcases.DealsPageTest" time="2.104"/>
+  <testcase name="loginToFreeCRM" classname="com.crm.qa.testcases.LoginPageDataDrivenTest" time="4.446"/>
+  <testcase name="loginToFreeCRM" classname="com.crm.qa.testcases.LoginPageDataDrivenTest" time="4.245"/>
+  <testcase name="division" classname="com.crm.qa.testcases.MathDemo" time="0">
+    <skipped message="expected [2] but found [3]"/>
+    <system-out><![CDATA[DIVISION
+]]></system-out>
+  </testcase>
+  <testcase name="division" classname="com.crm.qa.testcases.MathDemo" time="0">
+    <skipped message="expected [2] but found [3]"/>
+    <system-out><![CDATA[DIVISION
+]]></system-out>
+  </testcase>
+  <testcase name="division" classname="com.crm.qa.testcases.MathDemo" time="0">
+    <skipped message="expected [2] but found [3]"/>
+    <system-out><![CDATA[DIVISION
+]]></system-out>
+  </testcase>
+  <testcase name="division" classname="com.crm.qa.testcases.MathDemo" time="0">
+    <failure message="expected [2] but found [3]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [3]
+	at com.crm.qa.testcases.MathDemo.division(MathDemo.java:20)
+</failure>
+    <system-out><![CDATA[DIVISION
+]]></system-out>
+  </testcase>
+  <testcase name="sum" classname="com.crm.qa.testcases.MathDemo" time="0"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.005"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.008"/>
+  <testcase name="verifyContactsPageHeader" classname="com.crm.qa.testcases.ContactsPageTest" time="0.028"/>
+  <testcase name="verifyDealsPageHeader" classname="com.crm.qa.testcases.DealsPageTest" time="0.02"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="4.404"/>
+  <testcase name="verifyUsernameLabelTest" classname="com.crm.qa.testcases.HomePageTest" time="0.059"/>
+  <testcase name="verifyCreateNewContacts" classname="com.crm.qa.testcases.ContactsPageTest" time="0.943"/>
+  <testcase name="verifyCreateNewContacts" classname="com.crm.qa.testcases.ContactsPageTest" time="1.089"/>
+  <testcase name="verifyCreateNewContacts" classname="com.crm.qa.testcases.ContactsPageTest" time="1.096"/>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="0.58"/>
+  <testcase name="verifyDeleteContactByNameTest1" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;David Cris&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;MAMGA-PC&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54406}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 923cc05fec66537299502fcde89a1e21&#10;*** Element info: {Using=link text, value=David Cris}"/>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
+Navigated to:'https://classic.crmpro.com/'
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Found Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Trying to click on: [[ChromeDriver: chrome on XP (923cc05fec66537299502fcde89a1e21)] -> css selector: .intercom-borderless-dismiss-button span]
+Clicked on: [[ChromeDriver: chrome on XP (923cc05fec66537299502fcde89a1e21)] -> css selector: .intercom-borderless-dismiss-button span]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (923cc05fec66537299502fcde89a1e21)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (923cc05fec66537299502fcde89a1e21)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (923cc05fec66537299502fcde89a1e21)] -> xpath: //a[contains(text(), 'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (923cc05fec66537299502fcde89a1e21)] -> xpath: //a[contains(text(), 'Contacts')]]
+Trying to find Element By : By.linkText: David Cris
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"David Cris"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54406}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 923cc05fec66537299502fcde89a1e21
+*** Element info: {Using=link text, value=David Cris}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 33397
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDeleteContactByNameTest1" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;David Cris&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;MAMGA-PC&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54450}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: faedc88f155c24b459b65cfe9ab5b0cc&#10;*** Element info: {Using=link text, value=David Cris}"/>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
+Navigated to:'https://classic.crmpro.com/'
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Found Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Trying to click on: [[ChromeDriver: chrome on XP (faedc88f155c24b459b65cfe9ab5b0cc)] -> css selector: .intercom-borderless-dismiss-button span]
+Clicked on: [[ChromeDriver: chrome on XP (faedc88f155c24b459b65cfe9ab5b0cc)] -> css selector: .intercom-borderless-dismiss-button span]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (faedc88f155c24b459b65cfe9ab5b0cc)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (faedc88f155c24b459b65cfe9ab5b0cc)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (faedc88f155c24b459b65cfe9ab5b0cc)] -> xpath: //a[contains(text(), 'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (faedc88f155c24b459b65cfe9ab5b0cc)] -> xpath: //a[contains(text(), 'Contacts')]]
+Trying to find Element By : By.linkText: David Cris
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"David Cris"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54450}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: faedc88f155c24b459b65cfe9ab5b0cc
+*** Element info: {Using=link text, value=David Cris}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 33775
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDeleteContactByNameTest1" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;David Cris&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;MAMGA-PC&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54508}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 88637c003331949f4416974300fe45ff&#10;*** Element info: {Using=link text, value=David Cris}"/>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
+Navigated to:'https://classic.crmpro.com/'
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Found Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Trying to click on: [[ChromeDriver: chrome on XP (88637c003331949f4416974300fe45ff)] -> css selector: .intercom-borderless-dismiss-button span]
+Clicked on: [[ChromeDriver: chrome on XP (88637c003331949f4416974300fe45ff)] -> css selector: .intercom-borderless-dismiss-button span]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (88637c003331949f4416974300fe45ff)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (88637c003331949f4416974300fe45ff)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (88637c003331949f4416974300fe45ff)] -> xpath: //a[contains(text(), 'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (88637c003331949f4416974300fe45ff)] -> xpath: //a[contains(text(), 'Contacts')]]
+Trying to find Element By : By.linkText: David Cris
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"David Cris"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54508}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 88637c003331949f4416974300fe45ff
+*** Element info: {Using=link text, value=David Cris}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 22064
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDeleteContactByNameTest1" classname="com.crm.qa.testcases.ContactsPageTest" time="20.364">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;David Cris&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;MAMGA-PC&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54557}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 5be0acda702f21e80193d00476b26b0e&#10;*** Element info: {Using=link text, value=David Cris}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"David Cris"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54557}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 5be0acda702f21e80193d00476b26b0e
+*** Element info: {Using=link text, value=David Cris}
+	at com.crm.qa.testcases.ContactsPageTest.verifyDeleteContactByNameTest1(ContactsPageTest.java:71)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
+Navigated to:'https://classic.crmpro.com/'
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.cssSelector: .intercom-borderless-conversation-body
+Found Element By : By.cssSelector: .intercom-borderless-conversation-body
+Trying to find Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Found Element By : By.cssSelector: .intercom-borderless-dismiss-button span
+Trying to click on: [[ChromeDriver: chrome on XP (5be0acda702f21e80193d00476b26b0e)] -> css selector: .intercom-borderless-dismiss-button span]
+Clicked on: [[ChromeDriver: chrome on XP (5be0acda702f21e80193d00476b26b0e)] -> css selector: .intercom-borderless-dismiss-button span]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (5be0acda702f21e80193d00476b26b0e)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (5be0acda702f21e80193d00476b26b0e)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (5be0acda702f21e80193d00476b26b0e)] -> xpath: //a[contains(text(), 'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (5be0acda702f21e80193d00476b26b0e)] -> xpath: //a[contains(text(), 'Contacts')]]
+Trying to find Element By : By.linkText: David Cris
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"David Cris"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MAMGA-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Windows\TEMP\scoped_dir5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54557}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 5be0acda702f21e80193d00476b26b0e
+*** Element info: {Using=link text, value=David Cris}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 17481
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDealsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="0.64"/>
+</testsuite>

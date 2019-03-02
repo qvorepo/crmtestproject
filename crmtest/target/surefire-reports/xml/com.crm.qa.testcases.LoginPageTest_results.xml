@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Free CRM App Test Cases"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.409">
+  <properties />
+  
+  
+            <testcase name="loginTest" time="4.404" classname="com.crm.qa.testcases.LoginPageTest" />
+                <testcase name="verifyLoginPageTitleTest" time="0.005" classname="com.crm.qa.testcases.LoginPageTest" />
+      
+</testsuite>

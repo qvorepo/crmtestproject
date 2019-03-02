@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Free CRM App Test Cases"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="3"
+           time="0.000">
+  <properties />
+            <testcase name="division" time="0.000" classname="com.crm.qa.testcases.MathDemo">
+                <failure type="java.lang.AssertionError"
+                  message="expected [2] but found [3]"
+              >
+<![CDATA[java.lang.AssertionError: expected [2] but found [3]
+  org.testng.Assert.fail(Assert.java:93)
+  org.testng.Assert.failNotEquals(Assert.java:512)
+  org.testng.Assert.assertEqualsImpl(Assert.java:134)
+  org.testng.Assert.assertEquals(Assert.java:115)
+  org.testng.Assert.assertEquals(Assert.java:388)
+  org.testng.Assert.assertEquals(Assert.java:398)
+  com.crm.qa.testcases.MathDemo.division(MathDemo.java:20)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+  org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+  org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+  org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+  org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1010)
+  org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:862)
+  org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:755)
+  org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+  org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+  org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+  org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+  org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+  org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+  org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+  org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+  org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+  org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+  org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+  org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+  org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+  jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:176)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+  hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+  hudson.remoting.UserRequest.perform(UserRequest.java:212)
+  hudson.remoting.UserRequest.perform(UserRequest.java:54)
+  hudson.remoting.Request$2.run(Request.java:369)
+  hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="division" time="0.0" classname="com.crm.qa.testcases.MathDemo">
+          <skipped />
+    </testcase>
+            <testcase name="division" time="0.0" classname="com.crm.qa.testcases.MathDemo">
+          <skipped />
+    </testcase>
+            <testcase name="division" time="0.0" classname="com.crm.qa.testcases.MathDemo">
+          <skipped />
+    </testcase>
+  
+            <testcase name="sum" time="0.000" classname="com.crm.qa.testcases.MathDemo" />
+      
+</testsuite>
