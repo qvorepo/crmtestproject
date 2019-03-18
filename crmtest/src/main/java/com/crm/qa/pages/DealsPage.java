@@ -2,6 +2,8 @@ package com.crm.qa.pages;
 
 import static org.testng.Assert.assertTrue;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,6 +29,7 @@ public class DealsPage extends TestBase {
 	@FindBy(how = How.NAME, using = "contact_lookup") WebElement primarycontact;
 	@FindBy(how = How.NAME, using = "amount") WebElement amount;
 	@FindBy(how = How.XPATH, using = "//input[@type='submit'][@value='Save']") WebElement saveBtn;
+	@FindBy(how = How.CSS, using = ".datacard tr") List<WebElement> dealsRowList;
 
 	
 	
@@ -50,6 +53,59 @@ public class DealsPage extends TestBase {
 		Helper.sendKeys(driver, amount, 5, amt);
 		Helper.clickOn(driver, saveBtn, 7);
 	}
+	
+	public void getDealsRows () {
+		
+		List<WebElement> columnsList = null;
+		for (WebElement row : dealsRowList) {
+			//System.out.println();
+            columnsList = row.findElements(By.tagName("td"));
+            
+            for (WebElement column : columnsList) {
+            	if (column.getText().contentEquals("$10 Hair Cut ")) {
+            		 System.out.print(column.getText() + ", ");
+            	}
+            		
+            	 
+            }
+            	
+            }
+		}
+			
+		
+         public void extractDealData() {
+ 			//count rows
+ 			List<WebElement> Rows = driver.findElements(By.cssSelector("table.datacard:nth-child(2) tr"));
+ 			int totalRows = Rows.size();
+ 			System.out.println(" Total rows : "+totalRows);
+ 			
+ 			//count columns
+ 			//List<WebElement> Columns = driver.findElements(By.cssSelector("table.datacard:nth-child(2) tr:nth-child(1) td"));
+ 			List<WebElement> Columns = driver.findElements(By.xpath("//table[@class='datacard'][2]/tbody/tr[2]/td"));//Second table, second row
+ 			int totalColumns = Columns.size();
+ 			System.out.println(" Total Columns : "+totalColumns);
+ 			
+ 			//Extract data
+			for(int i=1;i<totalRows;i++){
+				for(int j=1;j<totalColumns;j++){
+					//Skip the first row.
+					if(i>1 && i<(totalRows-1) && j<(totalColumns-1)) {
+						//WebElement dataCell = driver.findElement(By.xpath("//div[@class='su-table']/table/tbody/tr["+i+"]/td["+j+"]"));
+						WebElement dataCell = driver.findElement(By.xpath("//table[@class='datacard'][2]/tbody/tr["+i+"]/td["+j+"]"));
+						System.out.println(dataCell.getText());
+						
+						
+//						if(!dataCell.getText().equalsIgnoreCase("10001") && !dataCell.getText().equalsIgnoreCase("10002") && !dataCell.getText().equalsIgnoreCase("10003") && !dataCell.getText().equalsIgnoreCase("10009")) {
+//							WebElement deleteIcon = driver.findElement(By.xpath("//table[@class='datacard'][2]/tbody/tr["+i+"]/td["+j+"]/a[3]"));
+//							System.out.println(i+"-"+"-"+ j+"deleteIcon found.");
+//						}
+						
+						
+					}
+					
+				}
+			}
+         }
 	
 	
 	

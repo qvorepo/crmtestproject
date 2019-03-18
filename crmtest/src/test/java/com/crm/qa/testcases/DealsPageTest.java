@@ -53,19 +53,30 @@ public class DealsPageTest extends TestBase {
 		  dealsPage.verifyNewDealsPageHeader();
 	  }
 	  
-	  @DataProvider
-		public Iterator<Object[]> getTestData() {
-			ArrayList<Object[]> testData=TestUtil.getNewDealTestDataFromExcel();
-			return testData.iterator();
+//	  @DataProvider
+//		public Iterator<Object[]> getTestData() {
+//			ArrayList<Object[]> testData=TestUtil.getNewDealTestDataFromExcel();
+//			return testData.iterator();
+//		}
+//		
+//		@Test(dataProvider="getTestData")
+//		public void verifyCreateNewDeals(String title, String company, String primarycontact, String amount) throws Exception{
+//			//homePage.clickOnDealsLink();
+//			homePage.clickOnNewDealLink();
+//			dealsPage.createNewDeals(title, company, primarycontact, amount);
+//			
+//		}
+		
+		@Test ()
+		public void verifyPrintingDealsTableData() throws Exception{
+			//dealsPage.getDealsRows();
 		}
 		
-		@Test(dataProvider="getTestData")
-		public void verifyCreateNewDeals(String title, String company, String primarycontact, String amount) throws Exception{
-			//homePage.clickOnDealsLink();
-			homePage.clickOnNewDealLink();
-			dealsPage.createNewDeals(title, company, primarycontact, amount);
-			
-		}	  
+		@Test()
+		public void verifyExtractDealsData() throws Exception {
+			dealsPage.extractDealData();
+		}
+		
 	  
 	  @AfterMethod
 		public void tearDown(){

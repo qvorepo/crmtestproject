@@ -27,9 +27,9 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm"
-			//		+ "/qa/config/config.properties");
-			FileInputStream ip = new FileInputStream("./config/config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm"
+					+ "/qa/config/config.properties");
+			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm""/src/main/java/com/crm/qa/config/config.properties");
 			
 			//./properties/config.properties
 			prop.load(ip);
