@@ -21,9 +21,7 @@ import org.testng.annotations.Test;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
-
-
-
+import static org.hamcrest.CoreMatchers.not;
 
 public class FileDownloadConcept {
 	WebDriver driver;
@@ -78,16 +76,12 @@ public class FileDownloadConcept {
 		Thread.sleep(2000);
 		File listOfFiles[] =folder.listFiles();
 		//Make sure the directory is not empty.
-		
-		//Assert.assertEquals(listOfFiles.length, is(not(0)));// NOT CERTAIN WHY THIS LINE YELDS A FALSE RESULT AT RUNTIME.
-		Assert.assertEquals(listOfFiles.length, 1);
+		assertThat(listOfFiles.length , is(not(0)));
 		
 		
 		for(File file:listOfFiles) {
 			//Make sure the down loaded file is not empty.
-			//Assert.assertEquals(file.length(), is(not((long)0)));//THIS LINE SHOULD NOT BE COMMENTED OUT. 3/23/2019
-			
-			
+			assertThat(file.length() ,  is(not((long)0)));
 			
 		}
 	}
