@@ -9,6 +9,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -32,7 +35,6 @@ public class FileDownloadConcept {
 		folder.mkdir();
 		
 		//Chrome
-		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mamga\\Dropbox\\Tools\\Selenium\\Driver\\chromedriver.exe");
 		ChromeOptions options=new ChromeOptions();
 		Map<String, Object> prefs=new HashMap<String,Object>();
@@ -45,6 +47,22 @@ public class FileDownloadConcept {
 		cap.setCapability(ChromeOptions.CAPABILITY, options);
 		options.merge(cap);
 		driver=new ChromeDriver(options);
+		
+		//Firefox, has not been able to get the test to pass in Firefox. 3/23/2019
+//		FirefoxProfile profile = new FirefoxProfile();
+//		
+//		profile.setPreference("browser.download.dir", folder.getAbsolutePath());
+//		profile.setPreference("browser.download.folderList", folder.getAbsolutePath());
+//		
+//		profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "image/JPEG, application/pdf, application/octet-stream");
+//		profile.setPreference("pdfjs.disabled", "true");
+//		
+//		System.setProperty("webdriver.gecko.driver","C:\\Users\\Mamga\\Dropbox\\Tools\\Selenium\\Driver\\geckodriver.exe");
+//		
+//		FirefoxOptions option=new FirefoxOptions();
+//		option.setProfile(profile);
+//		driver= new FirefoxDriver(option);
+		
 		
 	}
 	

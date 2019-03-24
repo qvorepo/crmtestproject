@@ -4,6 +4,7 @@ com\crm\qa\common\Helper.class
 com\crm\qa\common\DatabaseConnection.class
 com\crm\qa\pages\HomePage.class
 com\crm\qa\common\DriverFactory$BrowserType.class
+fileDownload\FileDownloadConcept.class
 com\crm\qa\pages\LoginPage.class
 com\crm\qa\ExtendReportListener\ExtentReporterNG.class
 com\crm\qa\base\TestBase.class

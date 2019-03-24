@@ -78,8 +78,6 @@ public class ContactsPageTest extends TestBase {
 		  public void verifyDeleteContactByNameTest3() throws Exception{
 			  contactsPage.deleteContactByName(prop.getProperty("Str_freecrm_contact_3"));
 		  }		
-		
-
 			  
 	  
 	  @AfterMethod

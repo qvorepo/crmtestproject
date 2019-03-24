@@ -17,6 +17,10 @@
 			
 			<class name="com.crm.qa.testcases.LoginPageDataDrivenTest"></class>
 			<class name="com.crm.qa.testcases.MathDemo"></class>
+			
+			<class name="fileDownload.FileDownloadConcept"></class>
+			
+			
 
 		</classes>
 	</test>
