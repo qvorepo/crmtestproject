@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
-  <listeners>
-    <listener class-name="com.crm.qa.ExtendReportListener.ExtentReporterNG"/>
-    <listener class-name="com.crm.qa.util.MyTransformer"/>
-  </listeners>
-  <test name="Free CRM App Test Cases(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.MathDemo">
+      <class name="fileUploadSikuli.FileUploadDemo">
         <methods>
-          <include name="division"/>
+          <include name="functionName"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.MathDemo -->
+      </class> <!-- fileUploadSikuli.FileUploadDemo -->
     </classes>
-  </test> <!-- Free CRM App Test Cases(failed) -->
-</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
