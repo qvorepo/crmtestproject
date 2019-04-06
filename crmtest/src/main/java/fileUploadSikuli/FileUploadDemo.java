@@ -50,8 +50,8 @@ public class FileUploadDemo {
 		
 		System.out.println("User Direcoty: " +System.getProperty("user.dir")) ;
 
-		String filepath = userDirectory +"\\src\\main\\java\\com\\crm\\qa\\testdata\\";
-        String inputFilePath = userDirectory+"\\src\\main\\java\\com\\crm\\qa\\testdata\\";
+		String filepath = userDirectory +"src\\main\\java\\com\\crm\\qa\\testdata\\";
+        String inputFilePath = userDirectory +"src\\main\\java\\com\\crm\\qa\\testdata\\";
         Screen screen = new Screen();
         Pattern fileInputTextBox = new Pattern(filepath + "Sikuli_FileInputTextBox.png");
         Pattern openBtn = new Pattern(filepath + "Sikuli_OpenBtn.png");
