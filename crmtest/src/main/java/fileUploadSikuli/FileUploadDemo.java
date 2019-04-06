@@ -2,6 +2,8 @@ package fileUploadSikuli;
 
 
 
+import java.io.FileInputStream;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,9 +35,23 @@ public class FileUploadDemo {
 	public void functionName() throws FindFailed {
 		
 		//System.out.println("User Direcoty: " +System.getProperty("user.dir")) ;
+		
+		String userDirectory="";
 
-		String filepath = System.getProperty("user.dir") +"\\src\\main\\java\\com\\crm\\qa\\testdata\\";
-        String inputFilePath = System.getProperty("user.dir")+"\\src\\main\\java\\com\\crm\\qa\\testdata\\";
+		if (System.getProperty("user.dir").indexOf("target")==-1) {
+			userDirectory=System.getProperty("user.dir");
+			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+		} else {
+			userDirectory=System.getProperty("user.dir").substring(0, System.getProperty("user.dir").indexOf("target"));
+			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			System.out.println("User Direcoty with substring: " +userDirectory) ;
+		}
+		//FileInputStream ip = new FileInputStream(userDirectory +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+		
+		System.out.println("User Direcoty: " +System.getProperty("user.dir")) ;
+
+		String filepath = userDirectory +"\\src\\main\\java\\com\\crm\\qa\\testdata\\";
+        String inputFilePath = userDirectory+"\\src\\main\\java\\com\\crm\\qa\\testdata\\";
         Screen screen = new Screen();
         Pattern fileInputTextBox = new Pattern(filepath + "Sikuli_FileInputTextBox.png");
         Pattern openBtn = new Pattern(filepath + "Sikuli_OpenBtn.png");

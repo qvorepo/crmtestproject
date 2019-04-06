@@ -19,6 +19,13 @@
 			<class name="com.crm.qa.testcases.MathDemo"></class>
 			
 			<class name="fileDownload.FileDownloadConcept"></class>
+			<class name="fileUploadSikuli.FileUploadDemo"></class>
+			
+			<class name="com.crm.qa.poc.Checkbox_Demo_Hyvee_Login_Page_Test"></class>
+			<class name="com.crm.qa.poc.KeyEvent_Demo_Hyvee_Login_Page"></class>
+			
+			
+			
 			
 			
 

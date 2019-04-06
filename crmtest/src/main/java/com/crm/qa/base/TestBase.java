@@ -30,8 +30,21 @@ public class TestBase {
 			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm"
 					//+ "/qa/config/config.properties");
 			
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
-			//System.out.println("User Direcoty: " +System.getProperty("user.dir")) ;
+			String userDirectory="";
+
+			if (System.getProperty("user.dir").indexOf("target")==-1) {
+				userDirectory=System.getProperty("user.dir");
+				//FileInputStream ip = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			} else {
+				userDirectory=System.getProperty("user.dir").substring(0, System.getProperty("user.dir").indexOf("target"));
+				//FileInputStream ip = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+				System.out.println("User Direcoty with substring: " +userDirectory) ;
+			}
+			FileInputStream ip = new FileInputStream(userDirectory +"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			
+			System.out.println("User Direcoty: " +System.getProperty("user.dir")) ;
+			
+			
 			//FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm""/src/main/java/com/crm/qa/config/config.properties");
 			
 			//./properties/config.properties
