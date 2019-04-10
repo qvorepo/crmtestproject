@@ -14,6 +14,7 @@ import org.testng.Reporter;
 
 import java.io.FileInputStream;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Properties;
 import java.util.regex.Pattern;
@@ -60,6 +61,9 @@ public void login() throws Exception {
 	  driver.get("https://www.toolsqa.com/automation-practice-form/");//https://www.toolsqa.com/automation-practice-form/
 	  Thread.sleep(1000);
 	 
+	  /**
+	   * Fill out form fields.
+	   **/
 	  Helper.sendKeys(driver, driver.findElement(By.name("firstname")), 5, "Quang");
 	  Helper.sendKeys(driver, driver.findElement(By.name("lastname")), 5, "Vo");
 	  driver.findElement(By.id("sex-1")).click();
@@ -67,6 +71,25 @@ public void login() throws Exception {
 	  
 	  Helper.sendKeys(driver, driver.findElement(By.id("datepicker")), 5, "12/31/1991");
 	  
+	  driver.findElement(By.id("profession-0")).click();
+	  driver.findElement(By.id("profession-1")).click();
+	  
+	  //Tools
+	  driver.findElement(By.id("tool-1")).click();
+	  driver.findElement(By.id("tool-2")).click();
+	  
+	  //Continent
+	  Select continents=new Select(driver.findElement(By.id("continents")));
+	  continents.selectByVisibleText("North America");
+	  
+	  //Selenium Commands
+	  Select seleniumCommands=new Select(driver.findElement(By.id("selenium_commands")));
+	  seleniumCommands.selectByVisibleText("Browser Commands");
+	  seleniumCommands.selectByIndex(1);
+	  
+	  /**
+	   *  Prepare to print out the form data.
+	   **/
 	  
 	  Thread.sleep(1000);
 	 System.out.println(driver.findElement(By.name("firstname")).getText());
@@ -78,25 +101,56 @@ public void login() throws Exception {
 	 }
 	 System.out.println("Date " +driver.findElement(By.id("datepicker")).getAttribute("value"));
 	 
-	 String exp="Years of experience ";
-	 if (driver.findElement(By.id("exp-0")).isSelected()) {
-		 System.out.println(exp + "1");
-	 } else if (driver.findElement(By.id("exp-1")).isSelected()) {
-		 System.out.println(exp + "2");
-	 } else if (driver.findElement(By.id("exp-2")).isSelected()) {
-		 System.out.println(exp + "3");
-	 } else if (driver.findElement(By.id("exp-3")).isSelected()) {
-		 System.out.println(exp + "4");
-	 } else if (driver.findElement(By.id("exp-4")).isSelected()) {
-		 System.out.println(exp + "5");
-	 } else if (driver.findElement(By.id("exp-5")).isSelected()) {
-		 System.out.println(exp + "6");
-	 } else if (driver.findElement(By.id("exp-6")).isSelected()) {
-		 System.out.println(exp + "7");
+	 List<WebElement> experienceList=driver.findElements(By.name("exp"));
+	 Iterator<WebElement> it1 = experienceList.iterator();
+	 while(it1.hasNext()) {
+		 WebElement radioBtn=it1.next();
+		 if(radioBtn.isSelected()) {
+			 System.out.println("Years of experience " + radioBtn.getAttribute("value"));
+		 }
+	     
 	 }
-	
 	 
+	 //Profession
+	 String professionStr="Profession:  ";
+	 List<WebElement> professionList=driver.findElements(By.name("profession"));
+	 Iterator<WebElement> it2 = professionList.iterator();
+	 while(it2.hasNext()) {
+		 WebElement checkbox=it2.next();
+		 if(checkbox.isSelected()) {
+			 professionStr=professionStr + " " + checkbox.getAttribute("value");
+		 }
+	     
+	 }
+	 System.out.println(professionStr);
 	 
+	 // Tools
+	 String toolStr="Tool:  ";
+	 List<WebElement> toolList=driver.findElements(By.name("tool"));
+	 Iterator<WebElement> it3 = toolList.iterator();
+	 while(it3.hasNext()) {
+		 WebElement checkbox=it3.next();
+		 if(checkbox.isSelected()) {
+			 toolStr=toolStr + " " + checkbox.getAttribute("value");
+		 }
+	     
+	 }
+	 
+	 System.out.println(toolStr);
+	 
+	 //Continents
+	 String selectedContinent = continents.getFirstSelectedOption().getText();
+	 
+	  System.out.println("Continent " +selectedContinent);
+	 
+	 //Selenium commands
+	  String commandsStr="Selenium commands: ";
+	  List<WebElement> allSelectedOptions=seleniumCommands.getAllSelectedOptions();
+	  for (WebElement selectedOption : allSelectedOptions) {
+		  commandsStr+=" "+selectedOption.getText();
+          
+	  }
+	  System.out.println(commandsStr);
 	  
 	  
 
